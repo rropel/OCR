@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StopListView">
+            <connections>
+                <outlet property="tableViewStopList" destination="yC5-ox-sYS" id="name-outlet-yC5-ox-sYS"/>
+                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yC5-ox-sYS">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yC5-ox-sYS" firstAttribute="leading" secondItem="2" secondAttribute="leading" id="1l3-oh-QTa"/>
+                <constraint firstAttribute="trailing" secondItem="yC5-ox-sYS" secondAttribute="trailing" id="DqP-bT-aIp"/>
+                <constraint firstItem="yC5-ox-sYS" firstAttribute="top" secondItem="2" secondAttribute="top" id="fRp-7Y-97Y"/>
+                <constraint firstAttribute="bottom" secondItem="yC5-ox-sYS" secondAttribute="bottom" id="sSF-YN-pd6"/>
+            </constraints>
+            <point key="canvasLocation" x="-48" y="87"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="blue_circle.png" width="48" height="48"/>
+        <image name="cross_over_red.png" width="48" height="48"/>
+        <image name="gray.png" width="48" height="48"/>
+        <image name="map.png" width="26" height="21"/>
+        <image name="trafficlightgreen.png" width="48" height="48"/>
+        <image name="trafficlightred.png" width="48" height="48"/>
+        <image name="trafficlightyellow.png" width="48" height="48"/>
+    </resources>
+</document>
